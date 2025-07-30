@@ -7,9 +7,4 @@ public class UserDataAdapter {
         this.dataSource=dataSource;
     }
 
-    public void adaptToUserData(UserData userData){
-        String nomeCompleto= dataSource.getNomeCompleto();
-        int eta= dataSource.getEta();
-        
-    }
 }
